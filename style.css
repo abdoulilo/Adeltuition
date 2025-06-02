@@ -254,6 +254,9 @@ a {
   width: 280px;
   text-align: center;
   transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card:hover {
@@ -283,13 +286,14 @@ a {
 }
 
 .btn-outline {
+  .btn-outline {
+  margin-top: auto; 
   border: 2px solid #333;
   color: #333;
   padding: 0.6rem 1.2rem;
   border-radius: 30px;
   font-weight: bold;
   display: inline-block;
-  margin-top: 1rem;
 }
 
 .btn-outline:hover {
